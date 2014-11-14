@@ -1,0 +1,88 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+
+@-webkit-keyframes anime {
+  0% {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    fill-opacity: 1; }
+  16% {
+    fill-opacity: 0; }
+  43% {
+    stroke-dasharray: 1200;
+    stroke-dashoffset: 0; }
+  56% {
+    stroke-dasharray: 1200;
+    stroke-dashoffset: 0; }
+  84% {
+    fill-opacity: 0; }
+  100% {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    fill-opacity: 1; } }
+@-moz-keyframes anime {
+  0% {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    fill-opacity: 1; }
+  16% {
+    fill-opacity: 0; }
+  43% {
+    stroke-dasharray: 1200;
+    stroke-dashoffset: 0; }
+  56% {
+    stroke-dasharray: 1200;
+    stroke-dashoffset: 0; }
+  84% {
+    fill-opacity: 0; }
+  100% {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    fill-opacity: 1; } }
+@-ms-keyframes anime {
+  0% {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    fill-opacity: 1; }
+  16% {
+    fill-opacity: 0; }
+  43% {
+    stroke-dasharray: 1200;
+    stroke-dashoffset: 0; }
+  56% {
+    stroke-dasharray: 1200;
+    stroke-dashoffset: 0; }
+  84% {
+    fill-opacity: 0; }
+  100% {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    fill-opacity: 1; } }
+@keyframes anime {
+  0% {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    fill-opacity: 1; }
+  16% {
+    fill-opacity: 0; }
+  43% {
+    stroke-dasharray: 1200;
+    stroke-dashoffset: 0; }
+  56% {
+    stroke-dasharray: 1200;
+    stroke-dashoffset: 0; }
+  84% {
+    fill-opacity: 0; }
+  100% {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    fill-opacity: 1; } }
+path {
+  -ms-animation: anime linear 3s infinite;
+  -moz-animation: anime linear 3s infinite;
+  -webkit-animation: anime linear 3s infinite;
+  -o-animation: anime linear 3s infinite;
+  animation: anime linear 3s infinite; }
